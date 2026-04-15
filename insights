@@ -1,0 +1,30 @@
+📈 Análise Detalhada e Tomada de Decisão
+Nesta seção, descrevo os processos analíticos e as conclusões estratégicas extraídas do conjunto de dados.
+
+1. Higienização e Confiabilidade dos DadosAntes de qualquer análise, os dados passaram por um rigoroso processo de Data Cleaning:
+Detecção de Anomalias: Identifiquei registros com anos de nascimento inconsistentes (1893, 1899 e 1900). Como analista, decidi removê-los para não enviesar a média de idade da base.
+Tratamento de Outliers Financeiros: Um cliente apresentava renda annual superior a $600.000$, enquanto a massa de dados se concentrava abaixo de $100.000$. A remoção deste ponto foi crucial para que as visualizações de correlação refletissem a realidade do público majoritário.
+
+
+
+2. Descobertas Estratégicas (Insights)
+A. O Perfil Educacional e o Ticket MédioAo cruzar o nível de escolaridade com o gasto total (), observou-se uma correlação positiva direta.
+Total_MntInsight: Clientes com PhD gastam, em média, significativamente mais que clientes de nível Basic.
+Recomendação: Campanhas de produtos de alto valor (como vinhos premium e itens de ouro) devem ter como alvo prioritário os segmentos de pós-graduação.
+
+
+B. Preferência por Canais Físicos
+Apesar da facilidade do e-commerce, o volume de compras em Lojas Físicas supera o catálogo e o site.
+Insight: Existe uma força de venda presencial muito alta. O público pode estar utilizando o site para pesquisa, mas prefere concluir a jornada na loja.
+Recomendação: Implementar estratégias de Web-to-Store (cupons online para resgate físico) para rastrear melhor essa jornada do cliente.
+
+
+C. Impacto da Estrutura Familiar
+Através da criação da variável , identifiquei que a composição familiar altera drasticamente as prioridades de compra.
+Total_ChildrenInsight: Famílias com crianças tendem a ter um número maior de visitas ao site, porém com tickets médios menores por compra.
+Recomendação: Ofertas de "Compre mais por menos" ou itens de conveniência familiar devem ser disparadas para este segmento.
+
+
+3. Conclusão Técnica
+Este projeto demonstra a importância de unir habilidades técnicas em Python (Pandas, Seaborn) com o pensamento crítico de negócio. 
+A capacidade de limpar ruídos e transformar linhas de CSV em recomendações ações é o que gera valor real para uma organização de marketing orientada a dados.
