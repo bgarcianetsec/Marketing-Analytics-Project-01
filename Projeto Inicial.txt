@@ -1,0 +1,58 @@
+Fase 1: Aquisição e Preparação dos Dados
+O ponto de partida é garantir uma base de dados que permita simular o dia a dia de uma empresa de marketing.
+Fonte de Dados: Use o Kaggle, especificamente o Marketing Campaign Dataset.
+Repositório: Crie uma pasta no seu GitHub chamada .Marketing-Analytics-Project
+Ambiente de Desenvolvimento: Configure o VS Code com as bibliotecas , e .pandassqlalchemyseaborn
+
+
+Fase 2: O Fluxo de Trabalho Técnico
+Aqui é onde você demonstra domínio sobre as ferramentas citadas.
+
+
+1. SQL (Interrogando a Estrutura)
+O SQL será utilizado para a manipulação inicial e segmentação dos dados após você subir o CSV para um banco (como SQLite ou PostgreSQL).
+Ação: Criar consultas para identificar comportamentos específicos.
+Exemplo prático: Selecionar todos os clientes com gastos superiores a R$ 500 nos últimos 6 meses que não converteram na última campanha de marketing.
+
+
+
+2. Python (Tratamento e Estatística)
+O Python (com as bibliotecas , e ) entra para realizar a limpeza profunda que o SQL não faz com tanta facilidade.PandasNumpySeaborn
+Ação: Eliminar valores nulos, tratar outliers (como idades irreais) e converter formatos de data.
+Engenharia de Dados: Criar novas variáveis, como a coluna "Idade do Cliente" baseada no ano de nascimento, para facilitar a análise demográfica.
+
+
+
+3. Power BI ou Tableau (Visualização de Valor)
+O Power BI (ou Tableau) é a ferramenta final para transformar dados brutos em decisões estratégicas por meio de dashboards interativos.
+Função: Construir visuais que demonstrem o Funil de Conversão e o ROI (Retorno sobre Investimento).
+Foco: Mostrar o perfil de consumo segmentado por faixa etária e canal de aquisição.
+
+Fase 3: Perguntas de Negócio (O Foco do Analista)
+Um analista de sucesso responde a problemas financeiros e estratégicos. Seu projeto deve responder a estas quatro perguntas:
+Perfil de Sucesso: Qual é o perfil demográfico (renda, educação e idade) dos clientes que possuem a maior taxa de aceitação das nossas ofertas?
+Risco de Churn (Abandono): Quais clientes estão sem realizar compras há mais de 90 dias e qual era o padrão de consumo anterior deles?
+Eficiência de Canal: Qual canal de vendas — Loja, Site ou Catálogo — apresenta o maior ticket médio por transação?
+
+Oportunidade de Upsell: Existe correlação entre categorias? (Ex: Clientes que compram vinhos têm alta propensão a comprar carnes nobres?)
+
+Passo Inicial para Hoje
+Para dar o primeiro passo agora, você deve focar no Script de Limpeza em Python.
+Deseja que eu escreva o código inicial em Python para você carregar o CSV e começar a tratar essas datas e valores nulos?
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+O Veredito: O Fluxo Ideal (O "Pulo do Gato")
+Para o seu portfólio no GitHub, o que mais vai impressionar um recrutador não é escolher um ou outro, mas sim integrar os dois.
+
+O fluxo recomendado para você hoje:
+
+SQL: Use para criar a base "limpa" inicial (apenas as colunas e linhas que importam).
+
+Python: Importe o resultado do SQL para um Jupyter Notebook e faça o tratamento de dados nulos, criação de novas métricas (como o ROI) e a análise exploratória de gráficos.
+
+Por que seguir este caminho?
+Como você está estudando Cibersegurança, o Python será sua ferramenta principal no futuro para analisar logs e automatizar defesas. Refazer Python agora com foco em análise de dados vai fortalecer muito sua lógica de programação para a segurança da informação depois.
+
+Minha sugestão: Comece o tratamento pelo Python. Como você está "refazendo de forma completa", praticar a limpeza de um dataset real de marketing no Pandas vai fixar conceitos de listas, dicionários, tipos de dados e funções que são fundamentais.
